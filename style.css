@@ -1,0 +1,108 @@
+body {
+  display: block;
+  margin: 8px;
+  min-height: 100vh;
+  background: linear-gradient(to top, #f185bb 0%, #f185bb 100%);
+  font-family: "Montserrat", serif;
+  color: #2c2b2c;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+form input {
+  font-family: "Montserrat", serif;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+hr {
+  border: 0.5px solid #f1f3fa;
+  margin: 30px 0;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+strong {
+  color: #db2796;
+}
+
+footer {
+  position: relative;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+footer a {
+  color: #2772db;
+}
+
+.card {
+  display: block;
+  margin: 60px auto;
+  background: white;
+  padding: 35px;
+  border-radius: 15px;
+  max-width: 600px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+.text-field {
+  background: #f1f3fa;
+  border: none;
+  width: 90%;
+}
+
+.search-button {
+  background: #2772db;
+  color: white;
+  border: none;
+  margin-left: 15px;
+  transition: all 150ms ease-in-out;
+}
+
+.search-button:hover {
+  background: #09203f;
+  cursor: pointer;
+}
+
+.current-weather {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.current-weather p {
+  line-height: 24px;
+}
+
+.current-temperature-icon span {
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+  top: -5px;
+  right: 7px;
+}
+
+.current-temperature-number {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.current-temperature-celsius {
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  top: -26px;
+  left: -4px;
+}
+  
